@@ -9,6 +9,7 @@
 
 /* Meat & potatoes */
 @import 'css/headers.css';
+@import 'css/paragraphs.css';
 @import 'css/lists.css';
 @import 'css/links.css';
 @import 'css/blockquotes.css';

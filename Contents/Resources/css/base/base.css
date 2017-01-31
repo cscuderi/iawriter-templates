@@ -3,10 +3,11 @@
 
 /* From min-width: 80px */
 html {
-	font-family: "NittiGrotesk", "Keyboard", sans-serif;
-	font-weight: 300; /* SemiLight weight for non-Retina (@1x) */
+	/* font-family: "NittiGrotesk", "Keyboard", sans-serif; */
+	font-family: "Karla", "Keyboard", sans-serif;
+	font-weight: 400;
 	font-size: 1px; /* Overridden by responsive font sizing */
-	line-height: calc(30 / 18); /* 1.6667 = 30px @ font-size: 18px */
+	line-height: 1.8rem; /* 1.6667 = 30px @ font-size: 18px */
 }
 
 /* Normal weight for Retina… */
@@ -19,7 +20,7 @@ html {
 /* …but only until 414px breakpoint on OS X */
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 414px) and (min-device-width: 1152px) , (min-resolution: 192dpi) and (min-width: 414px) and (min-device-width: 1152px) {
 	html {
-		font-weight: 300;
+		font-weight: 400;
 	}
 }
 
@@ -220,7 +221,7 @@ html {
 @media screen and (min-width: 768px) {
 	/* For iPad and above */
 	html {
-		font-size: 17px;
+		font-size: 18px;
 	}
 
 	.mac {
@@ -231,7 +232,7 @@ html {
 /* For widescreen */
 @media screen and (min-width: 1080px) {
 	html {
-		font-size: 18px;
+		font-size: 20px;
 	}
 }
 
