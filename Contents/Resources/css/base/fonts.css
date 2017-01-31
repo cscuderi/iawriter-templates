@@ -1,0 +1,186 @@
+/* latin-ext */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'), local('Raleway-Regular'), url('../../fonts/Raleway-Regular.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/YZaO6llzOP57DpTBv2GnyFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'), local('Raleway-Regular'), url('../../fonts/Raleway-Regular.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url('../../fonts/Raleway-SemiBold.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/STBOO2waD2LpX45SXYjQBQsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url('../../fonts/Raleway-SemiBold.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Raleway';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Raleway Italic'), local('Raleway-Italic'), url('../../fonts/Raleway-Italic.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/7dO2Hj7qB8nRVFK0svQqRoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Raleway';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Raleway Italic'), local('Raleway-Italic'), url('../../fonts/Raleway-Italic.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/IIm-lPOtfVKQy0GMiczF_5Bw1xU1rKptJj_0jans920.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Raleway';
+	font-style: italic;
+	font-weight: 600;
+	src: local('Raleway SemiBold Italic'), local('Raleway-SemiBoldItalic'), url('../../fonts/Raleway-SemiBoldItalic.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/OY22yoG8EJ3IN_muVWm29IjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Raleway';
+	font-style: italic;
+	font-weight: 600;
+	src: local('Raleway SemiBold Italic'), local('Raleway-SemiBoldItalic'), url('../../fonts/Raleway-SemiBoldItalic.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/OY22yoG8EJ3IN_muVWm29Bampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('../../fonts/Raleway-ExtraBold.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/QoPu455RxV2raYSIFXAMBQsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('../../fonts/Raleway-ExtraBold.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/1ImRNPx4870-D9a1EBUdPAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Raleway';
+	font-style: italic;
+	font-weight: 800;
+	src: local('Raleway ExtraBold Italic'), local('Raleway-ExtraBoldItalic'), url('../../fonts/Raleway-ExtraBoldItalic.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/us4LjTCmlYgh3W8CKujEJojoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Raleway';
+	font-style: italic;
+	font-weight: 800;
+	src: local('Raleway ExtraBold Italic'), local('Raleway-ExtraBoldItalic'), url('../../fonts/Raleway-ExtraBoldItalic.ttf'), url(https://fonts.gstatic.com/s/raleway/v11/us4LjTCmlYgh3W8CKujEJhampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+@font-face {
+	font-family: "NittiGrotesk";
+	font-weight: 300;
+	font-style: normal;
+	src: local("NittiGrotesk-SemiLight");
+}
+
+@font-face {
+	font-family: "NittiGrotesk";
+	font-weight: 300;
+	font-style: italic;
+	src: local("NittiGrotesk-SemiLightItalic");
+}
+
+@font-face {
+	font-family: "NittiGrotesk";
+	font-weight: 400;
+	font-style: normal;
+	src: local("NittiGrotesk-Normal");
+}
+
+@font-face {
+	font-family: "NittiGrotesk";
+	font-weight: 400;
+	font-style: italic;
+	src: local("NittiGrotesk-NormalItalic");
+}
+
+@font-face {
+	font-family: "NittiGrotesk";
+	font-weight: 600;
+	font-style: normal;
+	src: local("NittiGrotesk-SemiBold");
+}
+
+@font-face {
+	font-family: "NittiGrotesk";
+	font-weight: 600;
+	font-style: italic;
+	src: local("NittiGrotesk-SemiBoldItalic");
+}
+
+@font-face {
+	font-family: "NittiGrotesk";
+	font-weight: 700;
+	font-style: normal;
+	src: local("NittiGrotesk-Bold");
+}
+
+@font-face {
+	font-family: "NittiGrotesk";
+	font-weight: 700;
+	font-style: italic;
+	src: local("NittiGrotesk-BoldItalic");
+}
+
+/* Nitti iA Small Caps */
+
+@font-face {
+	font-family: "NittiSCiA";
+	font-weight: 400;
+	/* Not supported in @font-face at time of writing
+	font-variant: small-caps;
+	text-transform: lowercase; */
+	src: local("NittiSCiA-Regular");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), print {
+	@font-face {
+		font-family: "NittiSCiA";
+		font-weight: 400;
+		/* Not supported in @font-face at time of writing
+		font-variant: small-caps;
+		text-transform: lowercase; */
+		src: local("NittiSCiA-RegularHD");
+	}
+}
+
+@font-face {
+	font-family: "NittiSCiA";
+	font-weight: 700;
+	/* Not supported in @font-face at time of writing
+	font-variant: small-caps;
+	text-transform: lowercase; */
+	src: local("NittiSCiA-Bold");
+}

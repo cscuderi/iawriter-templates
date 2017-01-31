@@ -1,0 +1,5 @@
+/* Footnote */
+.footnotes {
+	font-size: 1em; /* 17px @1080px wide */
+	line-height: calc(30 / 18); /* 1.6667 = 30px @ font-size: 18px */
+}

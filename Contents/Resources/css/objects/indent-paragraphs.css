@@ -1,0 +1,4 @@
+ /* Indent Paragraphs */
+ .indent-paragraphs p + p {
+	text-indent: calc((20 / 18) * 1em); /* 1.1111em = 20px @ font-size: 18px */
+}

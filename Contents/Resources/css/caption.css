@@ -1,0 +1,13 @@
+/* Adjust border color to imitate sub-pixel lines */
+@media screen and (min-width: 150px) {
+	caption {
+		border-bottom-color: #888;
+	}
+}
+
+/* Intended border color from 200px */
+@media screen and (min-width: 200px) {
+	caption {
+		border-bottom-color: #1a1a1a;
+	}
+}

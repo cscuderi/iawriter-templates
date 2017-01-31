@@ -1,0 +1,48 @@
+/* Night Mode */
+
+/* Imitate sub-pixel line for narrow widths */
+
+/* First tweakpoint modifying core.css */
+@media screen and (min-width: 150px) {
+	.night-mode hr,
+	.night-mode caption,
+	.night-mode tbody th,
+	.night-mode td {
+		border-bottom-color: #888;
+	}
+
+	.night-mode tbody th,
+	.night-mode td {
+		border-top-color: #888;
+	}
+}
+
+/* Intended border color from 200px */
+@media screen and (min-width: 200px) {
+	.night-mode hr,
+	.night-mode caption,
+	.night-mode tbody th,
+	.night-mode td {
+		border-bottom-color: #dedede;
+	}
+
+	.night-mode tbody th,
+	.night-mode td {
+		border-top-color: #dedede;
+	}
+}
+
+/* Intended border color from 200px for OS X */
+@media screen and (min-width: 200px) and (min-device-width: 1152px) {
+	.night-mode hr,
+	.night-mode caption,
+	.night-mode tbody th,
+	.night-mode td {
+		border-bottom-color: #cccccc;
+	}
+
+	.night-mode tbody th,
+	.night-mode td {
+		border-top-color: #cccccc;
+	}
+}

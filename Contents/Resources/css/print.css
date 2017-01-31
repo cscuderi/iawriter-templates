@@ -1,0 +1,11 @@
+/* Print styles */
+/* font-size needs to be set here again otherwise responsive typography overrides it */
+@media print {
+	html {
+		font-size: 9.1pt;
+	}
+
+	body {
+		max-width: 365pt;
+	}
+}

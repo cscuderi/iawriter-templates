@@ -1,0 +1,13 @@
+/* Lists */
+/* Use custom bullet for unordered lists */
+ul {
+	display: block;
+	list-style: none;
+	margin: .5rem 0;
+}
+
+ul > li:before {
+	content: "• ";
+	float: left; /* Take out of flow to avoid changing left edge alignment or pushing child paragraph down */
+	margin-left: -1rem;
+}

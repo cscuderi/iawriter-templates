@@ -1,0 +1,26 @@
+/* Indent ordered lists in blockquotes */
+blockquote ul,
+blockquote ol {
+	margin-left: calc((40 / 18) * -1em); /* -40px when width = 1080px */
+}
+
+/* Blockquotes */
+blockquote {
+	margin-left: 2rem;
+	margin-right: -2rem;
+	padding-left: 1.4rem;
+	padding-right: 1.4rem;
+	border-left: 3px solid #ddd;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
+blockquote em {
+	font-weight: 600;
+}
+
+blockquote em strong,
+blockquote strong em {
+	font-weight: 700;
+}
+
