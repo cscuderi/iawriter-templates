@@ -2,54 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>BuildMachineOSBuild</key>
-	<string>16B2657</string>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
-	<key>CFBundleIdentifier</key>
-	<string>net.ia.writer.template.scooder</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>Scooder</string>
-	<key>CFBundlePackageType</key>
-	<string>BNDL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleSupportedPlatforms</key>
-	<array>
-		<string>MacOSX</string>
-	</array>
-	<key>CFBundleVersion</key>
-	<string>1</string>
-	<key>DTCompiler</key>
-	<string>com.apple.compilers.llvm.clang.1_0</string>
-	<key>DTPlatformBuild</key>
-	<string>8C30a</string>
-	<key>DTPlatformVersion</key>
-	<string>GM</string>
-	<key>DTSDKBuild</key>
-	<string>16C48a</string>
-	<key>DTSDKName</key>
-	<string>macosx10.12</string>
-	<key>DTXcode</key>
-	<string>0820</string>
-	<key>DTXcodeBuild</key>
-	<string>8C30a</string>
+
+	<key>CFBundleIdentifier</key>
+	<string>net.ia.writer.template.scooder</string>
+
 	<key>IATemplateDocumentFile</key>
 	<string>document</string>
-	<key>IATemplateFooterFile</key>
-	<string>footer</string>
-	<key>IATemplateFooterHeight</key>
-	<integer>90</integer>
-	<key>IATemplateHeaderFile</key>
-	<string>header</string>
-	<key>IATemplateHeaderHeight</key>
-	<integer>90</integer>
+
 	<key>IATemplateTitleFile</key>
 	<string>title</string>
+
+	<key>IATemplateHeaderFile</key>
+	<string>header</string>
+
+	<key>IATemplateFooterFile</key>
+	<string>footer</string>
+
+	<key>IATemplateHeaderHeight</key>
+	<integer>90</integer>
+
+	<key>IATemplateFooterHeight</key>
+	<integer>90</integer>
+
+	<key>IATemplateDescription</key>
+	<integer>Clean and simple writing template.</integer>
+
+	<key>IATemplateAuthor</key>
+	<integer>Carlin Scuderi</integer>
+
+	<key>IATemplateAuthorURL</key>
+	<integer>http://carlin.codes</integer>
+
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2016 Carlin Scuderi</string>
 </dict>
