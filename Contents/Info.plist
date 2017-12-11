@@ -1,53 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>CFBundleName</key>
-	<string>Scooder</string>
-
-	<key>CFBundleIdentifier</key>
-	<string>net.ia.writer.template.scooder</string>
-
-	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
-
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-
-	<key>CFBundleVersion</key>
-	<string>1</string>
-
-	<key>IATemplateDocumentFile</key>
-	<string>document</string>
-
-	<key>IATemplateTitleFile</key>
-	<string>title</string>
-
-	<key>IATemplateHeaderFile</key>
-	<string>header</string>
-
-	<key>IATemplateFooterFile</key>
-	<string>footer</string>
-
-	<key>IATemplateHeaderHeight</key>
-	<integer>90</integer>
-
-	<key>IATemplateFooterHeight</key>
-	<integer>90</integer>
-
-	<key>IATemplateDescription</key>
-	<integer>Clean and simple writing template.</integer>
-
-	<key>IATemplateAuthor</key>
-	<integer>Carlin Scuderi</integer>
-
-	<key>IATemplateAuthorURL</key>
-	<integer>http://carlin.codes</integer>
-
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016 Carlin Scuderi</string>
-</dict>
+  <dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleIdentifier</key>
+    <string>cscuderi.template.scooder</string>
+    <key>CFBundleName</key>
+    <string>Scooder</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>2</string>
+    <key>IATemplateDocumentFile</key>
+    <string>document</string>
+    <key>IATemplateFooterHeight</key>
+    <integer>90</integer>
+    <key>IATemplateHeaderHeight</key>
+    <integer>90</integer>
+    <key>IATemplateDescription</key>
+    <string>Clean and simple writing template.</string>
+    <key>IATemplateAuthor</key>
+    <string>Carlin Scuderi</string>
+    <key>IATemplateAuthorURL</key>
+    <string>http://carlinscuderi.com</string>
+  </dict>
 </plist>
