@@ -1,4 +1,6 @@
 p a,
 li a {
-	color: #2D6AFF;
+  color: #2d6aff;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
 }

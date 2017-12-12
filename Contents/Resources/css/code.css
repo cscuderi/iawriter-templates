@@ -3,10 +3,10 @@
 code,
 samp,
 kbd {
-	font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /* Use 500 not 600 for code that inherits bold (suppliments core.css) */
 :-webkit-any(h1, h2, h3, h4, h5, h6) :-webkit-any(code, samp, kbd) {
-	font-weight: 500;
+  font-weight: 500;
 }

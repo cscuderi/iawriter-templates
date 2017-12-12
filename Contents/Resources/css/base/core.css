@@ -27,31 +27,31 @@
 
 /* Regular versions on OS X, slim versions on iOS (assumes iOS will never have regular versions) */
 @font-face {
-  font-family: "NittiPro";
+  font-family: 'NittiPro';
   font-weight: 300;
   font-style: normal;
-  src: local("NittiPro-SemiLight"), local("NittiPro-SemiLightSlim");
+  src: local('NittiPro-SemiLight'), local('NittiPro-SemiLightSlim');
 }
 
 @font-face {
-  font-family: "NittiPro";
+  font-family: 'NittiPro';
   font-weight: 300;
   font-style: italic;
-  src: local("NittiPro-SemiLightItalic"), local("NittiPro-SemiLightItalicSlim");
+  src: local('NittiPro-SemiLightItalic'), local('NittiPro-SemiLightItalicSlim');
 }
 
 @font-face {
-  font-family: "NittiPro";
+  font-family: 'NittiPro';
   font-weight: 500;
   font-style: normal;
-  src: local("NittiPro-Medium"), local("NittiPro-MediumSlim");
+  src: local('NittiPro-Medium'), local('NittiPro-MediumSlim');
 }
 
 @font-face {
-  font-family: "NittiPro";
+  font-family: 'NittiPro';
   font-weight: 500;
   font-style: italic;
-  src: local("NittiPro-MediumItalic"), local("NittiPro-MediumItalicSlim");
+  src: local('NittiPro-MediumItalic'), local('NittiPro-MediumItalicSlim');
 }
 
 /* BASE */
@@ -122,7 +122,7 @@ body {
 }
 
 body > *:first-child {
-   margin-top: 0;
+  margin-top: 0;
 }
 
 /* iOS gutters responsive adjustments */
@@ -191,7 +191,6 @@ body > *:first-child {
   }
 }
 
-
 /* Headings */
 
 body > h1:first-child {
@@ -201,7 +200,7 @@ body > h1:first-child {
 /* Unify space above initial heading in blockquotes (based on 31px line-height) */
 blockquote > :-webkit-any(h1, h2, h3, h4, h5):first-child {
   margin-top: calc((21 / 1080) * 100%); /* 20px when width: 1080px */
-  padding-top: calc((10 / 1080) * 100%);/* 10px when width: 1080px */
+  padding-top: calc((10 / 1080) * 100%); /* 10px when width: 1080px */
 }
 
 @media screen and (min-width: 1080px) {
@@ -219,12 +218,12 @@ h6 {
   margin: 0 0.5em 0 0; /* 9px @ font-size: 18px */
 }
 
-  /* Clear all siblings after floated h6… */
+/* Clear all siblings after floated h6… */
 h6 ~ * {
   clear: both;
 }
 
-  /* …except immediately following paragraph */
+/* …except immediately following paragraph */
 h6 + p {
   clear: none;
 }
@@ -247,7 +246,7 @@ ol {
    Note this doesn’t work for paragraph lists, although we can fix via class or once has() is supported with: `ul li:not:has(p)::after` */
 ul li:empty::after,
 .task-list-item:last-child::after {
-  content: "";
+  content: '';
   display: inline-block;
 }
 
@@ -273,8 +272,8 @@ figure img {
 }
 
 figcaption {
-    text-align: center;
-    font-style: italic;
+  text-align: center;
+  font-style: italic;
 }
 
 hr {
@@ -300,7 +299,6 @@ hr {
   }
 }
 
-
 /* table-layout: fixed; produces equal-width columns, which is generally a better result */
 table {
   table-layout: fixed;
@@ -311,9 +309,9 @@ table {
   font-size: calc((15 / 18) * 1rem); /* 0.8333rem = 15px @ font-size: 18px */
   line-height: calc(24 / 15); /* 1.6 = 24px @ font-size: 15px */
   font-variant-numeric: tabular-nums;
-  -moz-font-feature-settings: "tnum";
-  -webkit-font-feature-settings: "tnum";
-  font-feature-settings: "tnum";
+  -moz-font-feature-settings: 'tnum';
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum';
 }
 
 caption {
@@ -322,9 +320,10 @@ caption {
   font-size: 1rem;
 }
 
-caption, figcaption {
-    padding-top: calc((20 / 1080) * 100%); /* 10px when width: 1080px */
-    padding-bottom: calc((10 / 1080) * 100%); /* 10px when width: 1080px */
+caption,
+figcaption {
+  padding-top: calc((20 / 1080) * 100%); /* 10px when width: 1080px */
+  padding-bottom: calc((10 / 1080) * 100%); /* 10px when width: 1080px */
 }
 
 tbody {
@@ -385,8 +384,10 @@ pre code {
 code,
 samp,
 kbd {
-  font-family: "NittiPro", "Keyboard", monospace;
-  font-size: calc((15 / 19) * 1em); /* 0.7895em = 15px @ font-size: 19px (based on 12/16px @640 = 15.2px). Values for Serif (smallest), others need overrides */
+  font-family: 'NittiPro', 'Keyboard', monospace;
+  font-size: calc(
+     (15 / 19) * 1em
+  ); /* 0.7895em = 15px @ font-size: 19px (based on 12/16px @640 = 15.2px). Values for Serif (smallest), others need overrides */
   font-weight: 200; /* Light weight for non-Retina (@1x) */
 }
 
@@ -410,13 +411,13 @@ kbd {
 }
 
 /* Prevent code line-height increasing heading line-height */
-:-webkit-any(h1, h2, h3, h4, h5, h6) > code, kbd {
+:-webkit-any(h1, h2, h3, h4, h5, h6) > code,
+kbd {
   line-height: normal;
 }
 
 /* Print styles */
 @media print {
-
   *,
   *:before,
   *:after {
@@ -480,17 +481,18 @@ kbd {
   }
 
   /* Code has a lighter background on printed pages */
-  code, pre, kbd {
+  code,
+  pre,
+  kbd {
     background-color: #f7f7f7;
   }
 }
 
-
 /* OBJECTS */
 
 /* Center Headings
-   Center h1-h5 headings, via the Centered Headings setting */
-.center-headings :-webkit-any(h1, h2, h3, h4, h5) {
+   Center some headings, via the Centered Headings setting */
+.center-headings :-webkit-any(h1) {
   text-align: center;
 }
 
@@ -552,10 +554,16 @@ kbd {
 /* Footnotes */
 
 .footnotes {
-  margin-top: calc((45 / 1080) * 100%); /* 45px when width: 1080px (excluding padding) */
+  margin-top: calc(
+     (45 / 1080) * 100%
+  ); /* 45px when width: 1080px (excluding padding) */
   page-break-before: avoid;
-  font-size: calc((16 / 18) * 1rem); /* 0.8889rem, 16/18px @1080px wide, default for Monospace */
-  line-height: calc(27 / 16); /* 1.6875, 27px @1080px wide, default for Monospace */
+  font-size: calc(
+     (16 / 18) * 1rem
+  ); /* 0.8889rem, 16/18px @1080px wide, default for Monospace */
+  line-height: calc(
+    27 / 16
+  ); /* 1.6875, 27px @1080px wide, default for Monospace */
 }
 
 .footnotes hr {
@@ -623,7 +631,7 @@ ul .task-list-item:before {
   background-color: transparent;
   -webkit-print-color-adjust: exact; /* Prevents from hiding when printed */
   -webkit-appearance: none; /* Disables system checkbox image */
-  opacity: 1.0; /* Otherwise they are 0.4 on iPhone, where it applies disabled effect even with above */
+  opacity: 1; /* Otherwise they are 0.4 on iPhone, where it applies disabled effect even with above */
 }
 
 .task-list-item-checkbox:checked {
@@ -650,7 +658,8 @@ ul .task-list-item:before {
   }
 }
 
-.header, .footer {
+.header,
+.footer {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
@@ -661,6 +670,6 @@ ul .task-list-item:before {
 }
 
 address {
-    text-align: right;
-    white-space: pre;
+  text-align: right;
+  white-space: pre;
 }

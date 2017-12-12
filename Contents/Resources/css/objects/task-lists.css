@@ -1,7 +1,7 @@
 /* Task Lists */
 
 .task-list-item-checkbox {
-	width: 1.6667em; /* line-height */
-	height: 1.6667em; /* same as width */
-	background-position: 60% 48%; /* tweak position */
+  width: 1.6667em; /* line-height */
+  height: 1.6667em; /* same as width */
+  background-position: 60% 48%; /* tweak position */
 }
